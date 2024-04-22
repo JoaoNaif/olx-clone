@@ -1,0 +1,9 @@
+Tecnologias Usadas:
+
+TypeScript 
+React Router
+Redux
+Tailwind
+Zod
+React-Hook-Form
+Swiper
