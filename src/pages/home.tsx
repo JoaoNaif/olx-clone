@@ -23,14 +23,6 @@ export const Home = () => {
   const date = new Date();
 
   const products = data;
-  const filter =
-    sch.status.length > 0
-      ? products.map((item) =>
-          item.produtos.filter((i) =>
-            i.nome.toLocaleLowerCase().includes(sch.status.toLocaleLowerCase())
-          )
-        )
-      : [];
 
   const category = products.filter((item) => item.id === catId);
   return (

@@ -1,7 +1,4 @@
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useAppSelector } from "../redux/hooks/useAppSelector";
-
 export const SlideHome = () => {
   const data = [
     {

@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import { useAppSelector } from "../redux/hooks/useAppSelector";
 import { setThemeStatus } from "../redux/reducers/themeReducer";
 import { setSearchStatus } from "../redux/reducers/searchReducer";
-import { FaMagnifyingGlass, FaMoon, FaSun, FaUser } from "react-icons/fa6";
+import { FaMagnifyingGlass, FaMoon, FaSun } from "react-icons/fa6";
 import { BsChat } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { SignUp } from "./SignUp";
